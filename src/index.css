@@ -31,7 +31,7 @@ input.brand-name::placeholder{
   padding-left: 4px;
 }
 .brand-name-container{
-  width: 80vw;
+  width: fit-content;
   position: absolute;
   bottom:10px;
   left: 50%;
@@ -47,4 +47,17 @@ div.selected-logo{
   width: 2rem;
   height: 1.5rem;
   border-radius: 40%;
+}
+.logo-result-img{
+  aspect-ratio: 4/3;
+}
+.logo-result-container{
+  width:80vw;
+}
+.result-container{
+  width: 20%;
+  border: 1px solid rgba(255, 0, 0, 0.114);
+}
+.hidden-input{
+  display:none;
 }
